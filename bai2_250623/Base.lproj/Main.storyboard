@@ -58,7 +58,7 @@
                                                     </textField>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="A29-1U-CzS" userLabel="firstname">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="A29-1U-CzS" userLabel="lastname">
                                                 <rect key="frame" x="186.66666666666663" y="0.0" width="174.33333333333337" height="71.333333333333329"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tên" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7p-5a-xZW">
@@ -221,6 +221,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="21K-47-JPF" secondAttribute="trailing" constant="16" id="w9W-cF-5B4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="age" destination="QIg-Wu-OaR" id="RSf-mR-rcg"/>
+                        <outlet property="firstName" destination="lOY-9B-BwR" id="DNR-M1-wuJ"/>
+                        <outlet property="gender" destination="daV-69-Zxl" id="Hx5-FH-6vQ"/>
+                        <outlet property="height" destination="xGI-De-iog" id="ypd-xu-gOw"/>
+                        <outlet property="lastName" destination="BKr-cr-mpb" id="Rax-SV-M2p"/>
+                        <outlet property="weight" destination="EQw-UA-8dD" id="tAV-JA-uFM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
